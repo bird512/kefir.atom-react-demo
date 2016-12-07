@@ -1,0 +1,37 @@
+{
+  "name": "kefir.atom-react-demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "dora --plugins \"proxy,webpack,webpack-hmr,livereload?enableJs=false&injectHost=127.0.0.1,browser-history?index=/src/entries/index.html\""
+  },
+  "dependencies": {
+    "karet.util": "^0.7.1",
+    "kefir": "^3.6.1",
+    "kefir.atom": "^4.0.2",
+    "kefir.react.native": "^0.1.1",
+    "partial.lenses": "^5.1.0",
+    "ramda": "^0.22.1",
+    "react": "15.3.2",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "atool-build": "^0.9.0",
+    "babel-plugin-import": "^1.0.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-runtime": "^6.6.1",
+    "es3ify-loader": "^0.2.0",
+    "dora": "0.3.x",
+    "dora-plugin-browser-history": "^0.1.1",
+    "dora-plugin-livereload": "^0.4.0",
+    "dora-plugin-proxy": "^0.6.1",
+    "dora-plugin-webpack": "0.6.x",
+    "dora-plugin-webpack-hmr": "^0.1.0",
+    "git-commit-build": "^1.0.2",
+    "glob": "^7.0.3",
+    "html-webpack-plugin": "^2.22.0",
+    "pre-commit": "1.x",
+    "rimraf": "^2.5.2"
+  }
+}
