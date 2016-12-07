@@ -12,4 +12,4 @@ npm install
 npm start
 ```
 
-Then `http://localhost:8989/` file in your browser.
+Then open `http://localhost:8989/` in your browser.
